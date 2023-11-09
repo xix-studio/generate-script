@@ -1,4 +1,4 @@
-# Nx Generate scripts
+# Nx scripts
 
 ## Setup a intergrated Node-Angular applications
 
@@ -7,4 +7,5 @@ npx create-nx-workspace@latest org_name
 # application name: frontend
 npx nx g @nx/angular:setup-tailwind frontend
 npx nx g @nx/express:app backend --directory=apps/backend --e2eTestRunner=none
+npx nx g setup-docker --project=backend
 ```
